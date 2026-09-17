@@ -1,0 +1,12 @@
+# 数据文件（体量巨大，不入库，按 README 从 GCS 桶重新下载）
+*.feather
+*.npy
+*.npz
+
+# Python 虚拟环境
+venv/
+
+# macOS
+.DS_Store
+__pycache__/
+*.pyc
